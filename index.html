@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tierra en Llamas</title>
+    <link rel="stylesheet" href="mi_estilo.css">
+</head>
+<body>
 
+    <header>
+        <h1>Tierra en Llamas</h1>
+        <div class="equipo">
+            <p><strong>Equipo:</strong> Remmy Quiñones, Natalia Suarez, Mariana Lujan, Jimena Martinez</p>
+        </div>
+    </header>
+
+    <marquee behavior="scroll" direction="left" class="bienvenida">
+        ¡Bienvenidos a nuestro portal informativo sobre la crisis climática global!
+    </marquee>
+
+    <main>
+        <section class="descripcion">
+            <h2>Sobre el Proyecto</h2>
+            <p>Este proyecto analiza las causas y consecuencias de los incendios forestales y el calentamiento global, buscando concientizar sobre el estado crítico de nuestro ecosistema actual.</p>
+        </section>
+
+        <section class="carrusel-container">
+            <div class="carrusel">
+                <img src="img1.jpg" alt="Imagen 1" class="slide active">
+                <img src="img2.jpg" alt="Imagen 2" class="slide">
+                <img src="img3.jpg" alt="Imagen 3" class="slide">
+                <img src="img4.jpg" alt="Imagen 4" class="slide">
+                <img src="img5.jpg" alt="Imagen 5" class="slide">
+                <img src="img6.jpg" alt="Imagen 6" class="slide">
+            </div>
+            <div class="controles">
+                <button id="prevBtn">Anterior</button>
+                <button id="nextBtn">Siguiente</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
